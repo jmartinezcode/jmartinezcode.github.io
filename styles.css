@@ -1,6 +1,35 @@
 /* Color Palette */
-$color1: rgba(66, 75, 84, 1);
-$color2: rgba(147, 168, 172, 1);
-$color3: rgba(255, 255, 255, 1);
-$color4: rgba(198, 202, 237, 1);
-$color5: rgba(173, 168, 190, 1);
+:root{
+  --outer_space: rgba(66, 75, 84, 1);
+  --cadet_grey: rgba(147, 168, 172, 1);
+  --white: rgba(255, 255, 255, 1);
+  --soap: rgba(198, 202, 237, 1);
+  --silver_chalice: rgba(173, 168, 190, 1);
+}
+
+
+.navbar{
+  background-color: rgba(66, 75, 84, 1);
+}
+.navbar a {
+  color: rgba(66, 75, 84, 1);
+}
+
+.navbar a:Hover{
+  color: rgba(173, 168, 190, 1);;
+}
+
+.jumbotron{
+  background-color: var(--cadet_grey));
+}
+.jumbotron h1{
+  color: var(--outer_space);
+}
+h1 h2 h3 h4 h5{
+  Font-Family: 'Ruda', Sans-Serif;
+  Font-Size: 100px;
+}
+p{
+  Font-Family: 'Roboto Slab', Serif;
+  Font-Size: 16px;
+}
