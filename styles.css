@@ -6,10 +6,16 @@
   --soap: rgba(198, 202, 237, 1);
   --silver_chalice: rgba(173, 168, 190, 1);
 }
-
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Merriweather', serif;
 
 .navbar{
-  background-color: rgba(66, 75, 84, 1);
+  font-family: 'Bebas Neue', cursive;
+  background-color: rgba(66, 75, 84, 0);
+}
+.navbar-brand{
+  font-family: 'Bebas Neue', cursive;
 }
 .navbar a {
   color: rgba(66, 75, 84, 1);
@@ -18,18 +24,26 @@
 .navbar a:Hover{
   color: rgba(173, 168, 190, 1);;
 }
-
-.jumbotron{
-  background-color: var(--cadet_grey));
+.intro {
+  font-family: 'Share Tech Mono', monospace;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.jumbotron p{
+  Font-Size: 24px;
+  margin-bottom: 0px;
 }
 .jumbotron h1{
-  color: var(--outer_space);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 125px;
+  font-weight: bold;
+  padding-top: 0px;
+  margin-top: 0px;
 }
-h1 h2 h3 h4 h5{
-  Font-Family: 'Ruda', Sans-Serif;
-  Font-Size: 100px;
+h1, h2, h3, h4, h5{
+  font-family: 'Share Tech Mono', monospace;
 }
 p{
-  Font-Family: 'Roboto Slab', Serif;
-  Font-Size: 16px;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
 }
