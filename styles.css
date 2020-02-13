@@ -40,17 +40,22 @@ font-family: 'Merriweather', serif;
   font-family: 'Bebas Neue', cursive;
   font-size: 125px;
   font-weight: bold;
-  padding-top: 0px;
+  padding: 0px;
   margin-top: -25px;
   margin-bottom: -50px;
-  padding-bottom: 0px;
 }
 h1, h2, h3, h4, h5{
+  font-family: 'Share Tech Mono', monospace;
+}
+.card-header{
   font-family: 'Share Tech Mono', monospace;
 }
 p{
   font-family: 'Merriweather', serif;
   font-size: 18px;
+}
+body{
+  position: relative;
 }
 .footer{
   position: fixed;
@@ -61,4 +66,25 @@ p{
 .footer-text{
   font-family: 'Share Tech Mono', monospace;
   font-size: 12px;
+}
+.card{
+  transition: 0.3s;
+}
+.card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.anchor{
+  position: relative;
+  border-top: 40px solid transparent;
+  margin: -30px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+.anchor:before{
+  content: "";
+  display: block;
+  margin-top: -65px;
+  height: 65px;
+  visibility: hidden;
 }
