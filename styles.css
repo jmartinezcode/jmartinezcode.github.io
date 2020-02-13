@@ -88,3 +88,31 @@ body{
   height: 65px;
   visibility: hidden;
 }
+#custom-list{
+  background-image: url("img/custom-list.png");
+  background-position: cover;
+}
+#bst{
+  background-image: url("img/B")
+}
+img{
+  filter: blur(1px);
+}
+img:hover{
+  opacity: 1;
+  filter: blur(0px);
+}
+.fa-linkedin-square {
+  color: gray;
+}
+.fa-linkedin-square:hover {
+  opacity: .7;
+  color: black;
+}
+.fa-github-square{
+  color: gray;
+}
+.fa-github-square:hover{
+  opacity: .7;
+  color: black;
+}
