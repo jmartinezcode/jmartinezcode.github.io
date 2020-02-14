@@ -75,7 +75,7 @@ body{
 }
 .anchor{
   position: relative;
-  border-top: 40px solid transparent;
+  border-top: 60px solid transparent;
   margin: -30px 0 0;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
@@ -84,8 +84,8 @@ body{
 .anchor:before{
   content: "";
   display: block;
-  margin-top: -75px;
-  height: 75px;
+  margin-top: -65px;
+  height: 65px;
   visibility: hidden;
 }
 #custom-list{
@@ -93,7 +93,8 @@ body{
   background-position: cover;
 }
 #bst{
-  background-image: url("img/Binary_search_tree.svg")
+  background-image: url("img/Binary_search_tree.svg");
+  background-position: cover;
 }
 .card img{
   filter: blur(1px);
@@ -125,4 +126,11 @@ body{
 }
 .profile-pic:hover{
   filter: none;
+}
+.fa-3x {
+  -webkit-filter: grayscale(1);
+}
+.sweepstakes{
+  height: 400;
+  object-fit: fill;
 }
