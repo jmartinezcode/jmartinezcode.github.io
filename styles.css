@@ -84,8 +84,8 @@ body{
 .anchor:before{
   content: "";
   display: block;
-  margin-top: -65px;
-  height: 65px;
+  margin-top: -75px;
+  height: 75px;
   visibility: hidden;
 }
 #custom-list{
@@ -95,10 +95,10 @@ body{
 #bst{
   background-image: url("img/Binary_search_tree.svg")
 }
-img{
+.card img{
   filter: blur(1px);
 }
-img:hover{
+.card img:hover{
   opacity: 1;
   filter: blur(0px);
 }
@@ -118,4 +118,11 @@ img:hover{
 }
 .card-header{
   font-weight: bolder;
+}
+.profile-pic{
+  transform: scaleX(-1);
+  filter: grayscale();
+}
+.profile-pic:hover{
+  filter: none;
 }
