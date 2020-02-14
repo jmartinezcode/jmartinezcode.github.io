@@ -93,7 +93,7 @@ body{
   background-position: cover;
 }
 #bst{
-  background-image: url("img/B")
+  background-image: url("img/Binary_search_tree.svg")
 }
 img{
   filter: blur(1px);
@@ -115,4 +115,7 @@ img:hover{
 .fa-github-square:hover{
   opacity: .7;
   color: black;
+}
+.card-header{
+  font-weight: bolder;
 }
